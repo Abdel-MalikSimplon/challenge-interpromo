@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	min-height: 100vh;
+	min-width: 100vw;
+	background-color: green;
+}
+
+.header-principal {
+	height: 418px;
+	background-image: url(images/payments-banner-graphic.png);
+	overflow: hidden;
+}
+
+.logo-text, .logo {
+	vertical-align: middle;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.logo-text {
+	font-size: 1.2em;
+	letter-spacing: 10px;
+	color: white;
+	float: left;
+	margin-top: 25px;
+}
+
+
+.nav-contain {
+	width: 200px;
+	height: 50px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+
+.nav-contain--li {
+	display: inline;
+	margin-left: 30px;
+}
+
+.nav-contain--li a {
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+
+.header-principal--titre {
+	margin-top: 130px;
+	font-size: 3.3em;
+	text-align: center;
+	color: white;
+}
+
+.header-principal--sous-titre {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 1.6em;
+	color: white;
+}
+
+
+.btn {
+	width: 400px;
+	height: 50px;
+	border-radius: 3px;
+	margin: 60px auto;
+	background-color: white;
+	text-align: center;
+	line-height: 45px;
+	font-size: .8em;
+}
+
+.btn-lien {
+	text-decoration: none;
+	color: #b38bbe;
+}
